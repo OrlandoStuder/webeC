@@ -1,0 +1,19 @@
+@import "common.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#center {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    order: -1;  /* entspricht dem gleichen, wie wenn man den nav-Teil im HTML über den main setzt */
+}
+
+nav, aside, main {
+    padding: 0 10px;  /* oben und unten 0px, links und rechts 10px */
+}
