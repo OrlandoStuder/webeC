@@ -1,0 +1,44 @@
+body {
+    background-color: #fafaff;
+    color: #363636;
+    font-family: "Dubai Light", serif;
+}
+
+h1, caption {
+    font-family: "Dubai", serif;
+}
+
+h1, h2, caption {
+    color: dimgrey;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.holiday  {
+    color: grey;
+}
+
+.exercise {
+    font-weight: bold;
+}
+
+tfoot {
+    font-style: italic;
+    background-color: antiquewhite;
+}
